@@ -1,0 +1,94 @@
+/* Diet Calculator and Planner Styles */
+
+
+.diet-calculator-section {
+    background-color: #F9F9F9;
+    padding: 40px;
+}
+
+.diet-calculator-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.diet-calculator-form .form-label {
+    color: #6B5B95;
+}
+
+.diet-calculator-form .btn-primary {
+    background-color: #6B5B95;
+    border: none;
+}
+
+.diet-calculator-form .btn-primary:hover {
+    background-color: #4C3F58;
+}
+
+#result-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#result-section h3 {
+    color: #6B5B95;
+}
+
+#calorie-result, #food-suggestion, #activity-suggestion, #gender-suggestion {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Feature Box Styles */
+.feature-box {
+    border: 1px solid #6B5B95;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Button Styles */
+.feature-box button {
+    background-color: #6B5B95;
+    border-color: #6B5B95;
+    transition: background-color 0.3s;
+}
+
+.feature-box button:hover {
+    background-color: #554476;
+}
+
+/* Add hover effect */
+.feature-box:hover {
+    background-color: #f0f1f3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.result-header {
+    color: #6B5B95;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.result-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.result-text {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+

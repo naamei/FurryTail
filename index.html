@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog Care & Wellness</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-gradient sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🐕 FurryTailes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                          Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="food.html">Diet Planner</a></li>
+                          <li><a class="dropdown-item" href="grooming.html">Grooming and wellness</a></li>
+                          <!-- <li><a class="dropdown-item" href="#">Pharmacy</a></li> -->
+                          
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Slider Section -->
+   <!-- <div id="dogCareCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#dogCareCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#dogCareCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#dogCareCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://via.placeholder.com/1200x400/6B5B95/ffffff?text=Grooming+and+Wellness" class="d-block w-100" alt="Healthy Dogs">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Ensuring Your Dog's Health</h5>
+                <p>Comprehensive tips to keep your furry friend healthy and happy.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/1200x400/6B5B95/ffffff?text=Training+and+Behavior" class="d-block w-100" alt="Training and Behavior">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Training and Behavior Tips</h5>
+                <p>Best practices to train your dog for a well-behaved companion.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/1200x400/6B5B95/ffffff?text=Nutritious+Diet+Plans" class="d-block w-100" alt="Nutritious Diet">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Nutritious Diet Plans</h5>
+                <p>Feed your dog the right diet for long-term wellness.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#dogCareCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#dogCareCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>  -->
+    <!-- Welcome Section -->
+<section class="welcome text-center py-5">
+    <div class="container" >
+        <h2>Welcome to Dog Care & Wellness</h2>
+        <p>Your one-stop resource for keeping your furry friend healthy and happy!</p>
+        <!-- <a href="resources.html" class="btn btn-outli">Discover Our Resources</a> -->
+    </div>
+</section>
+<section class="second text-center py-5"></section>
+    
+</section>
+
+
+
+<!-- Home Category -->
+<section class="home_categories">
+    <div class="container">
+      <h2 class="h2 text-center">Hello Hooman</h2>
+      <p class="text-center">What are you looking for today?</p>
+  <br>
+      <div class="description_pdp">
+        <div class="row collection_flex_class addflex" id="coll_dog">
+          <div class="col-12 col-sm-4">
+            <div class="collection_select_class text-center"> 
+              <div class="collection_img">
+                <a href="/collections/dog-food-treats">
+                  <picture>
+                    <source srcset="//www.wiggles.in/cdn/shop/files/Group-3164_3.png?v=1656047165 286w" sizes="33vw">
+                    <img src="//www.wiggles.in/cdn/shop/files/Group-3164_3.png?v=1656047165&amp;width=1500" loading="lazy" class="img-fluid" width="286" height="286" alt="Dog Food & Treats">
+                  </picture>
+                </a>
+              </div><br>
+              <h4><a href="food.html">Diet Planner</a></h4>
+            </div>
+          </div>
+  
+          <div class="col-12 col-sm-4">
+            <div class="collection_select_class text-center"> 
+              <div class="collection_img">
+                <a href="/collections/dog-health-wellness">
+                  <picture>
+                    <source srcset="//www.wiggles.in/cdn/shop/files/Group-316411.png?v=1656566468 286w" sizes="33vw">
+                    <img src="//www.wiggles.in/cdn/shop/files/Group-316411.png?v=1656566468&amp;width=1500" loading="lazy" class="img-fluid" width="286" height="286" alt="Dog Health & Wellness">
+                  </picture>
+                </a>
+              </div><br>
+              <h4><a href="/collections/dog-health-wellness">Grooming &amp; Wellness</a></h4>
+            </div>
+          </div>
+  
+          <div class="col-12 col-sm-4">
+            <div class="collection_select_class text-center"> 
+              <div class="collection_img">
+                <a href="/collections/medication-dog">
+                  <picture>
+                    <source srcset="//www.wiggles.in/cdn/shop/files/Dog_Icon_bea5763c-3d12-40b1-a755-da5d8e0a8417.jpg?v=1662628113 286w" sizes="33vw">
+                    <img src="//www.wiggles.in/cdn/shop/files/Dog_Icon_bea5763c-3d12-40b1-a755-da5d8e0a8417.jpg?v=1662628113&amp;width=1500" loading="lazy" class="img-fluid" width="285" height="286" alt="Dog Pharmacy">
+                  </picture>
+                </a>
+              </div><br>
+              <h4><a href="/collections/medication-dog">community</a></h4>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <!-- https://www.wiggles.in/cdn/shop/files/Dog_Icon_bea5763c-3d12-40b1-a755-da5d8e0a8417.jpg?v=1662628113 -->
+  
+        <div class="btn_2class text-center mt-4">
+          <a href="/collections/shop-dog" class="btn btn-primary">EXPLORE ALL</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <br><br>
+
+
+
+  <section class="parallax-section">
+    <div class="content">
+    
+      
+    </div>
+  </section>
+  
+<!-- community -->
+  <div class="community">
+    <div class="container">
+    <br>
+    <div class="row">
+        <div class="col-md-6 about_main_left">
+            <div class="about_main_inner">       
+                <h2 class="h2">Ask Our Community, <br>Not The Internet.</h2>
+                <p>Join India's largest community of pet parents, Wiggles Tribe. Get expert advice from vets, connect with others like you &amp; access community events, content, and more.</p> 
+                
+                <div class="joint_btn">
+                    <a href="community.html" class="btn btn-primary">Join FurryTailes</a>
+                </div> 
+            </div>        
+        </div>
+        <div class="col-md-6 about_main_right" style="background-color:#f4f0fc;">
+            <div class="slider_new slick-initialized slick-slider slick-vertical">
+                <div class="slick-list draggable">
+                    <div class="slick-track" role="listbox">
+                        <div class="slick-slide" data-slick-index="0" aria-hidden="false" tabindex="0">
+                            <div class="comment_slider" style="background-color: #a57bca;">
+                                <div class="left_class_content">
+                                    <p>Can I feed my dog chocolate for his birthday?</p>
+                                </div>      
+                                <div class="right_class_img">          
+                                    <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMjvxvY4k1QleMbf_GyBuev6hrM3sAoAFdg&s" weight="20px" height="60px" alt="Comment Image" title="">
+                                </div>   
+                            </div>          
+                        </div>
+                        <div class="slick-slide" data-slick-index="1" aria-hidden="false" tabindex="0">
+                            <div class="comment_slider" style="background-color: #8b61b6;">
+                                <div class="left_class_content">
+                                    <p>My Golden Retriever is shedding a lot. Is it normal?</p>
+                                </div>      
+                                <div class="right_class_img">          
+                                    <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTj7BAW1vlM0sf-XtIPb0aPom-_eGn88ZnNg&s"  weight="20px" height="60px" alt="Comment Image" title="">
+                                </div>   
+                            </div>          
+                        </div>
+                        
+                        <!-- Additional slides can be added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+</div>
+
+
+
+
+
+    <!-- Related Posts Section -->
+<!-- <div class="container my-5">
+    <h2 class="related-posts__title text-center">Related Posts</h2>
+    <a href="https://www.daysmart.com/pet/blog/" class="related-posts__link d-block text-center mb-4" target="_blank" rel="noopener">View all posts</a>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="post-tile">
+                <img src="https://www.daysmart.com/pet/wp-content/uploads/sites/4/2024/09/shutterstock_1715597689.jpg" alt="Pet Care Business Calculator" class="img-fluid">
+                <a href="https://www.daysmart.com/pet/blog/new-pet-care-business-calculator/" class="post-tile__title" target="_blank" rel="noopener">Pet Care Business Calculator</a>
+                <div class="meta">
+                    <time datetime="2024-09-25">25 Sep 2024</time>
+                   
+                </div>
+                <span class="link-arrow-right post-tile__cta">Read article</span>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="post-tile">
+                <img src="https://www.daysmart.com/pet/wp-content/uploads/sites/4/2024/08/shutterstock_2397912103.jpg" alt="Five Effective Ways to Fetch New Pet Business Clients" class="img-fluid">
+                <a href="https://www.daysmart.com/pet/blog/five-effective-ways-to-fetch-new-pet-business-clients/" class="post-tile__title" target="_blank" rel="noopener">Five Effective Ways to Fetch New Pet Business Clients</a>
+                <div class="meta">
+                    <time datetime="2024-08-15">15 Aug 2024</time>
+                    
+                </div>
+                <span class="link-arrow-right post-tile__cta">Read article</span>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="post-tile">
+                <img src="https://www.daysmart.com/pet/wp-content/uploads/sites/4/2024/08/shutterstock_2048518367-scaled-1.jpg" alt="Marketing 101 for Small Businesses" class="img-fluid">
+                <a href="https://www.daysmart.com/blog/marketing-101-for-small-businesses/" class="post-tile__title" target="_blank" rel="noopener">Marketing 101 for Small Businesses</a>
+                <div class="meta">
+                    <time datetime="2024-08-13">13 Aug 2024</time>
+                    
+                </div>
+                <span class="link-arrow-right post-tile__cta">Read article</span>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+ <!-- Fetch More Section -->
+ <div class="row-fluid">
+    <h2 class="h2-bv">Fetch More</h2>
+    <div class="blog-wrap">
+        <article class="article blog-post" aria-label="Pet Nutrition by Life Stage" id="petnutritionbylifestage">
+            <div class="blog-content">
+                <div class="blog-image-div">
+                    <a href="https://bettervet.com/resources/pet-nutrition/pet-nutrition-by-life-stage">
+                        <img src="https://bettervet.com/hs-fs/hubfs/dog-sitting-at-table-eating-food.png?width=420&amp;height=220&amp;name=dog-sitting-at-table-eating-food.png" alt="Pet Nutrition by Life Stage: Feeding Your Pet at Any Age" class="blog-image" loading="lazy" width="420" height="220">
+                    </a>  
+                </div>
+                <div class="blog-text">
+                    <h3><a href="https://bettervet.com/resources/pet-nutrition/pet-nutrition-by-life-stage">Pet Nutrition by Life Stage: at Any Age</a></h3>
+                    <div class="blurb">Like us, our pets have different nutritional needs throughout their lives. From the unlimited...</div>
+                    <div class="author-div">By <a href="/vets/dr-joshua-montgomery">Dr. Joshua Montgomery</a></div>
+                </div>
+            </div>
+            <div class="post-meta-section">
+                <div class="post-tags">
+                    <a class="tag-link" href="https://bettervet.com/resources/tag/pet-nutrition">Pet Nutrition</a>
+                    <a class="tag-link" href="https://bettervet.com/resources/tag/pet">Pet</a>
+                </div>
+                <div class="post-read-minutes">5 min read</div>
+            </div>
+        </article>
+
+        <article class="article blog-post" aria-label="How to Read Pet Food Labels" id="howtoreadpetfoodlabels">
+            <div class="blog-content">
+                <div class="blog-image-div">
+                    <a href="https://bettervet.com/resources/pet-nutrition/pet-food-labels">
+                        <img src="https://bettervet.com/hs-fs/hubfs/dog-with-glasses-reading-pet-food-label.png?width=420&amp;height=220&amp;name=dog-with-glasses-reading-pet-food-label.png" alt="How to Read Pet Food Labels" class="blog-image" loading="lazy" width="420" height="220">
+                    </a>  
+                </div>
+                <div class="blog-text">
+                    <h3><a href="https://bettervet.com/resources/pet-nutrition/pet-food-labels">How to Read Pet Food Labels</a></h3>
+                    <div class="blurb">Looking at the rows and rows of pet food choices, do you know which ingredients are best for your...</div>
+                    <div class="author-div">By <a href="/vets/dr-joshua-montgomery">Dr. Joshua Montgomery</a></div>
+                </div>
+            </div>
+            <div class="post-meta-section">
+                <div class="post-tags">
+                    <a class="tag-link" href="https://bettervet.com/resources/tag/pet-nutrition">Pet Nutrition</a>
+                </div>
+                <div class="post-read-minutes">5 min read</div>
+            </div>
+        </article>
+
+       
+
+<article class="article blog-post" aria-label="Dog Grooming Essentials" id="doggroomingessentials">
+<div class="blog-content">
+    <div class="blog-image-div">
+        <a href="https://bettervet.com/resources/pet-grooming/dog-grooming-essentials">
+            <img src="https://bettervet.com/hs-fs/hubfs/dog-getting-nails-trimmed-on-counter-top.png?width=1101&height=620&name=dog-getting-nails-trimmed-on-counter-top.png" alt="Dog Grooming Essentials" class="blog-image" loading="lazy" width="420" height="220">
+        </a>  
+    </div>
+    <div class="blog-text">
+        <h3><a href="https://bettervet.com/resources/pet-health-care/pet-nail-trimming">Dog Grooming Essentials: Tools</a></h3>
+        <div class="blurb">Grooming is an essential part of dog care. Here’s a list of tools every dog owner should have...</div>
+        <div class="author-div">By <a href="/vets/dr-joshua-montgomery">Dr. Joshua Montgomery</a></div>
+    </div>
+</div>
+<div class="post-meta-section">
+    <div class="post-tags">
+        <a class="tag-link" href="https://bettervet.com/resources/tag/grooming">Grooming</a>
+    </div>
+    <div class="post-read-minutes">3 min read</div>
+</div>
+</article>
+
+
+    </div>
+    <div class="button text-center">
+        <a href="https://bettervet.com/resources/pet-health-care" class="btn btn-primary">View More</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Testimonials Section -->
+<section class="testimonials text-center py-5">
+    <div class="container">
+        <h2>What Our Readers Say</h2>
+        <blockquote>
+            <p>"Thanks to Dog Care & Wellness, my pup is healthier than ever!" - Happy Pet Owner</p>
+        </blockquote>
+    </div>
+</section>
+
+<!-- Newsletter Signup -->
+<section class="newsletter text-center py-5">
+    <div class="container">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for tips and news!</p>
+        <form action="subscribe.php" method="post">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 FurryTailes. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

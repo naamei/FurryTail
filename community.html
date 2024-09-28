@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Community - Dog Care & Wellness</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-color: #f4f4f4; /* Light grey background */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .community-header {
+    background-color: #6B5B95; /* Main color for the header */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 40px 20px; /* Top-bottom and left-right padding */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 30px; /* Space below the header */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.community-header h1 {
+    font-size: 2.5rem; /* Header size */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.community-header p {
+    font-size: 1.2rem; /* Paragraph size */
+    line-height: 1.5; /* Spacing between lines */
+}
+
+        .community-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .community-box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            flex: 1 1 calc(33% - 20px); /* Responsive box size */
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .community-box:hover {
+            transform: scale(1.05);
+        }
+        .community-box img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .community-box h3 {
+            font-size: 1.5rem;
+            color: #6B5B95;
+        }
+        .community-box p {
+            font-size: 1rem;
+            color: #555;
+        }
+        .join-button {
+            background-color: #6B5B95;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .join-button:hover {
+            background-color: #8a7cae;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-gradient sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🐕 FurryTailes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                          Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="food.html">Diet Planner</a></li>
+                          <li><a class="dropdown-item" href="grooming.html">Grooming and wellness</a></li>
+                          <!-- <li><a class="dropdown-item" href="#">Pharmacy</a></li> -->
+                          
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="community-header">
+            <h1>Join Our Dog Lovers Community</h1>
+            <p>Connect with other pet parents, share stories, and celebrate your furry friends!</p>
+        </div>
+
+        <div class="community-section">
+            <div class="community-box">
+                <img src="https://cdn.shopify.com/s/files/1/0086/0795/7054/files/facebook_f8cb9cf0-f8c9-4739-89db-f4eede7a79c2_1500x.png?v=1630412515" alt="Join our Facebook group">
+                <h3>PETS ARE FAMILY</h3>
+                <p>Wondering where you can find people who love pets as much as you do? Our Pets are Family Facebook page is the place for you!</p>
+                <a href="https://www.facebook.com/groups/petsofhuft" class="join-button">JOIN NOW</a>
+            </div>
+
+            <div class="community-box">
+                <img src="https://bettervet.com/hs-fs/hubfs/_services.png?width=1650&height=1350&name=_services.png" alt="Community Events">
+                <h3>Community Events</h3>
+                <p>Participate in events, meet fellow dog lovers, and enjoy fun activities together.</p>
+                <a href="#events" class="join-button">EXPLORE EVENTS</a>
+            </div>
+
+            <div class="community-box">
+                <img src="https://www.groomers-online.com/blog/wp-content/uploads/2024/07/GettyImages-1396295861-350x350.jpg" alt="Pet Adoption Drives">
+                <h3>Pet Adoption Drives</h3>
+                <p>Help find loving homes for dogs in need. Get involved in our adoption drives.</p>
+                <a href="#adoptions" class="join-button">JOIN ADOPTION DRIVE</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+ <!-- Fetch More Section -->
+ <div class="row-fluid">
+    <h2 class="h2-bv">Fetch More</h2>
+    <div class="blog-wrap">
+        <article class="article blog-post" aria-label="Pet Nutrition by Life Stage" id="petnutritionbylifestage">
+            <div class="blog-content">
+                <div class="blog-image-div">
+                    <a href="https://bettervet.com/resources/pet-nutrition/pet-nutrition-by-life-stage">
+                        <img src="https://bettervet.com/hs-fs/hubfs/dog-sitting-at-table-eating-food.png?width=420&amp;height=220&amp;name=dog-sitting-at-table-eating-food.png" alt="Pet Nutrition by Life Stage: Feeding Your Pet at Any Age" class="blog-image" loading="lazy" width="420" height="220">
+                    </a>  
+                </div>
+                <div class="blog-text">
+                    <h3><a href="https://bettervet.com/resources/pet-nutrition/pet-nutrition-by-life-stage">Pet Nutrition by Life Stage: at Any Age</a></h3>
+                    <div class="blurb">Like us, our pets have different nutritional needs throughout their lives. From the unlimited...</div>
+                    <div class="author-div">By <a href="/vets/dr-joshua-montgomery">Dr. Joshua Montgomery</a></div>
+                </div>
+            </div>
+            <div class="post-meta-section">
+                <div class="post-tags">
+                    <a class="tag-link" href="https://bettervet.com/resources/tag/pet-nutrition">Pet Nutrition</a>
+                    <a class="tag-link" href="https://bettervet.com/resources/tag/pet">Pet</a>
+                </div>
+                <div class="post-read-minutes">5 min read</div>
+            </div>
+        </article>
+
+        <article class="article blog-post" aria-label="How to Read Pet Food Labels" id="howtoreadpetfoodlabels">
+            <div class="blog-content">
+                <div class="blog-image-div">
+                    <a href="https://bettervet.com/resources/pet-nutrition/pet-food-labels">
+                        <img src="https://bettervet.com/hs-fs/hubfs/dog-with-glasses-reading-pet-food-label.png?width=420&amp;height=220&amp;name=dog-with-glasses-reading-pet-food-label.png" alt="How to Read Pet Food Labels" class="blog-image" loading="lazy" width="420" height="220">
+                    </a>  
+                </div>
+                <div class="blog-text">
+                    <h3><a href="https://bettervet.com/resources/pet-nutrition/pet-food-labels">How to Read Pet Food Labels</a></h3>
+                    <div class="blurb">Looking at the rows and rows of pet food choices, do you know which ingredients are best for your...</div>
+                    <div class="author-div">By <a href="/vets/dr-joshua-montgomery">Dr. Joshua Montgomery</a></div>
+                </div>
+            </div>
+            <div class="post-meta-section">
+                <div class="post-tags">
+                    <a class="tag-link" href="https://bettervet.com/resources/tag/pet-nutrition">Pet Nutrition</a>
+                </div>
+                <div class="post-read-minutes">5 min read</div>
+            </div>
+        </article>
+
+       
+
+<article class="article blog-post" aria-label="Dog Grooming Essentials" id="doggroomingessentials">
+<div class="blog-content">
+    <div class="blog-image-div">
+        <a href="https://bettervet.com/resources/pet-grooming/dog-grooming-essentials">
+            <img src="https://bettervet.com/hs-fs/hubfs/dog-getting-nails-trimmed-on-counter-top.png?width=1101&height=620&name=dog-getting-nails-trimmed-on-counter-top.png" alt="Dog Grooming Essentials" class="blog-image" loading="lazy" width="420" height="220">
+        </a>  
+    </div>
+    <div class="blog-text">
+        <h3><a href="https://bettervet.com/resources/pet-health-care/pet-nail-trimming">Dog Grooming Essentials: Tools</a></h3>
+        <div class="blurb">Grooming is an essential part of dog care. Here’s a list of tools every dog owner should have...</div>
+        <div class="author-div">By <a href="/vets/dr-joshua-montgomery">Dr. Joshua Montgomery</a></div>
+    </div>
+</div>
+<div class="post-meta-section">
+    <div class="post-tags">
+        <a class="tag-link" href="https://bettervet.com/resources/tag/grooming">Grooming</a>
+    </div>
+    <div class="post-read-minutes">3 min read</div>
+</div>
+</article>
+
+
+    </div>
+    <div class="button text-center">
+        <a href="https://bettervet.com/resources/pet-health-care" class="btn btn-primary">View More</a>
+    </div>
+</div>
+
+
+    <!-- Testimonials Section -->
+<section class="testimonials text-center py-5">
+    <div class="container">
+        <h2>What Our Readers Say</h2>
+        <blockquote>
+            <p>"Thanks to Dog Care & Wellness, my pup is healthier than ever!" - Happy Pet Owner</p>
+        </blockquote>
+    </div>
+</section>
+
+<!-- Newsletter Signup -->
+<section class="newsletter text-center py-5">
+    <div class="container">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for tips and news!</p>
+        <form action="subscribe.php" method="post">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Dog Care & Wellness. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
